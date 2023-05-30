@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    height: 75vh;
+    width: 100%;
+    background-color: #fff;
+    color:black;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: left;
+    margin:0 20px;
+}
+
+
+.container .heading{
+    margin:15px 0;
+}
+.container .heading h2{
+    font-size: 32px;
+    font-weight: 500;
+}
+
+
+.info input{
+    height: 40px;
+    width: 450px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+    padding:5px 10px;
+    color:black;
+    font-weight: 400;
+    font-size: 18px;
+    margin:10px 0;
+}
+.info input::before{
+    color:grey;
+    font-size: 16px;
+}
+.info input:focus{
+    outline-color: rgb(7, 158, 204);
+}
+
+.info label{
+    display: block;
+    width: 100%;
+    color:black;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.info p{
+    color:grey;
+    font-size: 14px;
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+}
+#next{
+    margin: 10px 0;
+    width:450px;
+    height: 40px;
+    background-color: black;
+    color:white;
+    font-weight: bold;
+    border-radius: 20px;
+    border:none;
+    outline: none;
+    margin-left: 5px;
+}
+#next:hover{
+    background-color: rgb(17, 16, 16);
+}
+.not_account{
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+.not_account span{
+    color:rgb(11, 152, 217);
+    text-decoration: underline;
+}
+
+

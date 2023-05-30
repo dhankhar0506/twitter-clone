@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    height: 75vh;
+    width: 100%;
+    background-color: #fff;
+    color:black;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.container .logo{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.container .heading{
+    margin-top: 10px;
+}
+.container .heading h2{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.signId{
+    margin-top: 20px;
+    width:300px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.signId .google{
+    display: flex;
+    flex-direction: row;
+    border:1px solid grey;
+    border-radius: 20px;
+    padding:5px 30px;
+    padding-top: 3px;
+}
+.signId .google:hover{
+    background-color:#ccc;
+}
+.signId .google span{
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 5px;
+    padding-top: 3px;
+}
+.signId .apple{
+    display: flex;
+    flex-direction: row;
+    border:1px solid grey;
+    border-radius: 20px;
+    padding:5px 30px;
+
+}
+.signId .apple:hover{
+    background-color:#ccc;
+}
+.signId .apple span{
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 5px;
+    padding-top: 3px;
+}
+.signId .google_image{
+    height:30px;
+    width:30px;
+}
+
+
+.info input{
+    height: 40px;
+    width: 300px;
+    border:1px solid #ccc;
+    border-radius: 15px;
+    padding:5px 10px;
+    color:black;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 10px 0;
+}
+.info input::before{
+    color:grey;
+    font-size: 16px;
+}
+.info input:focus{
+    outline-color: rgb(7, 158, 204);
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+}
+#next{
+    margin: 5px 0;
+    margin-top: 15px;
+    width:300px;
+    height: 40px;
+    background-color: black;
+    color:white;
+    font-weight: bold;
+    border-radius: 20px;
+    border:none;
+    outline: none;
+}
+#next:hover{
+    background-color: rgb(17, 16, 16);
+}
+#fpass{
+    margin: 15px 0;
+    width:300px;
+    height: 40px;
+    background-color: transparent;
+    color:black;
+    font-weight: bold;
+    border-radius: 20px;
+    border:2px solid #ccc;
+}
+#fpass:hover{
+    background-color: #ccc;
+}
+
+.not_account{
+    margin-left: 30px;
+}
+
+.not_account span{
+    color:rgb(11, 152, 217);
+    text-decoration: underline;
+}
